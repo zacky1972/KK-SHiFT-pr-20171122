@@ -1,14 +1,8 @@
 /**
- * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ * KK-Shift theme
  *
- * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ * Copyright (C) 2017 Marii Yamada & Susumu Yamazaki
  */
-
- // This file has been copied over from
- // ../../bower_components/reveal.js/css/theme/source/black.scss
-
- // See ../../bower_components/reveal.js/css/theme/README.md
- // for further explanations on how to create a custom reveal.js theme.
 
 // Default mixins and settings -----------------
 @import "../../bower_components/reveal.js/css/theme/template/mixins";
@@ -21,10 +15,15 @@
 
 
 // Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
-$backgroundColor: #222;
+$backgroundColor: #fff;
 
-$mainColor: #fff;
-$headingColor: #fff;
+$mainColor: #222;
+$headingColor: #222;
+
+$base-color: #FFFFFF;
+$main-color: #4BBDAB;
+$accent-color: #FADF4B;
+
 
 $mainFontSize: 38px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
@@ -44,8 +43,19 @@ $heading4Size: 1.0em;
 
 section.has-light-background {
 	&, h1, h2, h3, h4, h5, h6 {
-		color: #222;
+		color: $backgroundColor;
 	}
+}
+
+.reveal .slides {
+	border: solid $main-color;
+	border-width: 30px 0;
+	background-image: linear-gradient(150deg, $accent-color 100px, transparent 0),
+	linear-gradient(-30deg, $accent-color 100px, transparent 0);
+}
+
+html {
+	background-color: $backgroundColor !important;
 }
 
 // Theme template ------------------------------
