@@ -1,5 +1,5 @@
 {
-  "name": "reveal-test",
+  "name": "kk-shift",
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:zacky1972/reveal-test.git"
+    "url": "git@github.com:zacky1972/KK-Shift-pr-20171122.git"
   },
   "scripts": {
     "test": "grunt test"
