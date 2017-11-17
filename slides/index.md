@@ -5,4 +5,4 @@
 
 Student Hope Is Future Treasure
 
-![](https://zacky1972.github.io/KK-Shift/images/presentation-Kanmon-G&G-2017102901-ada863bd.jpeg) <!-- .element height="50%" width="50%" -->
+![](resources/images/presentation-Kanmon-G&G-2017102901.jpeg) <!-- .element height="50%" width="50%" -->
