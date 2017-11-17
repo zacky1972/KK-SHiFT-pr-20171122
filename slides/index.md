@@ -1,10 +1,8 @@
 
 # KK-Shift
 
-From the terminal, pop in:
+北九大x北九州高専をグッと盛り上げる会
 
-  ```yo reveal:slide "Slide Title"```
+Student Hope Is Future Treasure
 
-Available options:
-
- ```--markdown --attributes --notes```
+![](https://zacky1972.github.io/KK-Shift/images/presentation-Kanmon-G&G-2017102901-ada863bd.jpeg) <!-- .element height="50%" width="50%" -->

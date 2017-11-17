@@ -13,7 +13,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   background-image: linear-gradient(150deg, #FADF4B 100px, transparent 0), linear-gradient(-30deg, #FADF4B 100px, transparent 0); }
 
 html {
-  background-color: #fff !important; }
+  background-color: #fff; }
 
 /*********************************************
  * GLOBAL STYLES
