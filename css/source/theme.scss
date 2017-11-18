@@ -58,6 +58,10 @@ html {
 	background-color: $backgroundColor;
 }
 
+p {
+	text-align: left;
+}
+
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
