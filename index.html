@@ -12,9 +12,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
-    
+
         <link rel="stylesheet" href="css/theme.css" id="theme">
-    
+
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/highlightjs/styles/zenburn.css">
@@ -42,7 +42,7 @@
                 
                     
                         
-    <section data-markdown="slides/index.md"></section>
+    <section data-html="slides/index.html"></section>
 
 
                     
@@ -51,6 +51,102 @@
                     
                         
     <section data-html="slides/self-introduction.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/whats-kk-shift.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/what-to-do.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/origin-kk-shift.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/projects.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/petlian1.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/petlian2.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/kamokamo1.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/kamokamo2.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/agri-iot-1.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/kanmongg-1.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/gakufubako-1.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/request.md"></section>
 
 
                     
@@ -67,13 +163,25 @@
           // Full list of configuration options available at:
           // https://github.com/hakimel/reveal.js#configuration
           Reveal.initialize({
-            controls: true,
-            progress: true,
-            history: true,
-            center: true,
-
-            transition: 'slide', // none/fade/slide/convex/concave/zoom
-
+            controls: true,    // 右下のコントロール
+            progress: true,    // 下部の進捗バー
+            slideNumber: true, // スライドのページ番号
+            history: true,     // ブラウザの履歴
+            overview: true,    // Escで表示できる「概要」ページ
+            center: true,      // スライドの垂直方向中央表示
+            touch: true,       // タッチ操作を無効化
+            loop: false,       // スライドをループさせる
+            rtl: false,        // 右から左へのスライド
+            fragments: false,  // fragmentsを無効化する
+            autoSlide: 0,      // 自動スライドをミリ秒単位で設定。デフォルトは0（自動スライドしない）
+            autoSlideStoppable: true,  // 左下の自動スライド停止用のボタンを非表示にする
+            mouseWheel: false, // マウスのホイールによるスライド
+            transition: 'concave',  // none/fade/slide/convex/concave/zoom
+            transitionSpeed: 'default', // スライド速度 default/fast/slow
+            // 視差背景の画像URL設定
+            parallaxBackgroundImage: '',
+            // 視差背景のサイズを設定
+            parallaxBackgroundSize: '',
             // Optional reveal.js plugins
             dependencies: [
               { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
