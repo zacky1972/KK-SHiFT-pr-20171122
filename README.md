@@ -3,7 +3,8 @@
 ## インストール方法
 
 ```
-$ npm install -g bower yo grunt-cli generator-reveal
+$ gem install slim html2slim
+$ npm install -g bower yo grunt-cli generator-reveal gulp
 $ git clone git@github.com:zacky1972/KK-Shift-pr-20171122.git
 $ cd KK-Shift-pr-20171122
 $ npm install
@@ -39,11 +40,11 @@ next-slide-title には英語のタイトルを入れる(そのままファイ�
 ### HTML のスライドの追加
 
 ```
-$ yo reveal:slide "slide-title" --markdown
+$ yo reveal:slide "slide-title"
 $ subl slides/slide-title.html
 ```
 
-next-slide-title には英語のタイトルを入れる(そのままファイル名になる)。残念ながら日本語は通らない。
+slide-title には英語のタイトルを入れる(そのままファイル名になる)。残念ながら日本語は通らない。
 
 スライドごとの CSS は style タグを作って書く。
 
@@ -57,4 +58,33 @@ next-slide-title には英語のタイトルを入れる(そのままファイ�
 <h2>slide-title</h2>
 
 <p>Please change me!</p>
+```
+
+### Slim のスライドの追加
+
+HTML のスライドの追加をした後，同名の slim ファイルを追加する
+
+```
+$ yo reveal:slide "slide-title"
+$ html2slim slides/slide-title.html slides/slide-title.slim
+$ subl slides/slide-title.slim
+```
+
+slide-title には英語のタイトルを入れる(そのままファイル名になる)。残念ながら日本語は通らない。
+
+スライドごとの CSS は style タグを作って書く。
+
+```slim
+style
+  |  h2 { color: red !important; }
+h2
+  | slide-title
+p
+  | Please change me!
+```
+
+Slim を追加した場合は，スライドを表示したりデプロイしたりする前に gulp を実行して slides/\*.slim を変換しておく
+
+```
+$ gulp
 ```
