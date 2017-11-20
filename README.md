@@ -24,7 +24,7 @@ $ grunt serve
 $ grunt deploy
 ```
 
-[このページを開きます](https://zacky1972.github.io/KK-Shift-pr-20171122/)
+[このページを開きます](https://zacky1972.github.io/KK-SHiFT-pr-20171122/)
 
 ## スライドの追加
 
