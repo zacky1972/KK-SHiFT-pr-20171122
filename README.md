@@ -1,4 +1,4 @@
-# README.md: KK-Shift-pr-20171122
+# README.md: KK-SHiFT-pr-20171122
 
 ## インストール方法
 
